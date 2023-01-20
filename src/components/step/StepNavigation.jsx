@@ -21,9 +21,8 @@ export default function StepNavigation() {
             key={index}
             to={step.link}
             className={`w-[50px] h-[50px] bg-[#E5E5E5] rounded-full flex items-center justify-center   font-light text-2xl ${
-              window.location.pathname === step.link
-                ? "bg-blue-500 text-white font-medium"
-                : ""
+              window.location.pathname === step.link &&
+              "bg-blue-500 text-white font-medium"
             }`}
           >
             {step.label}
