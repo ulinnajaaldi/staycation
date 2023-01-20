@@ -7,6 +7,7 @@ module.exports = {
         primary: "#152C5B",
         secondary: "#3252DF",
         abu: "#B0B0B0",
+        pink: "#FF498B",
       },
     },
   },
