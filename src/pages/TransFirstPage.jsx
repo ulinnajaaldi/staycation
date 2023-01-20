@@ -25,11 +25,12 @@ const TransPage = (props) => {
           <div className="flex justify-between">
             <div>
               <h3 className="text-primary text-xl ">{data.name}</h3>
-              <p className="text-abu font-light">{data.alamat}</p>
+              <p className="text-abu font-light">{data.address}</p>
             </div>
             <div className="flex items-center justify-center">
               <p className="text-primary font-medium">
-                {data.harga}
+                <span>Rp. </span>
+                {data.price}
                 <span>/ malam</span>
               </p>
             </div>
